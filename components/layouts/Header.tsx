@@ -1,6 +1,6 @@
 import Hamburger from "../header/Hamburger";
 import Logo from "../header/Logo";
-import Navigation from "../header/Navigation";
+import Navigation from "../header/Navigation";;
 
 export default function Header({
   setHamburger,

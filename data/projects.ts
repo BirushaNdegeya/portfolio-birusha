@@ -1,7 +1,8 @@
-import chataw from "../../public/projects_images/chataw.png";
-import rillby from "../../public/projects_images/rillby.png";
-import quicklinks from "../../public/projects_images/quicklink.png"
-import finanztracker from "../../public/projects_images/finanztrack.png"
+import chataw from "../public/birusha.jpg";
+import rillby from "../public/birusha.jpg";
+import quicklinks from "../public/birusha.jpg";
+import finanztracker from "../public/birusha.jpg";
+
 
 export const projects: IprojectCard[] = [
   {
