@@ -1,7 +1,7 @@
-import chataw from "../public/birusha.jpg";
-import rillby from "../public/birusha.jpg";
-import quicklinks from "../public/birusha.jpg";
-import finanztracker from "../public/birusha.jpg";
+import chataw from '../public/case-studies-1.png';
+import rillby from "../public/case-studies-2.png";
+import quicklinks from "../public/case-studies-3.png";
+import finanztracker from "../public/twitter-work.png";
 
 
 export const projects: IprojectCard[] = [
