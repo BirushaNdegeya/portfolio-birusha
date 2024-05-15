@@ -1,2 +1,1 @@
-# portfolio-birusha
-Software Developer - TypeScript
+# Portfolio Birusha
