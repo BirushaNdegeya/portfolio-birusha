@@ -5,7 +5,7 @@ export default function IntroduceUser(): JSX.Element {
     <div className="flex px-2 flex-col gap-2">
       <div className="flex flex-col">
         <h3 className=" font-light text-xl">
-          Hey 👋 , I am <span className=" font-normal">Thierry</span>
+          Hey 👋 , I am <span className=" font-normal">Birusha Ndegeya</span>
         </h3>
         <h2 className=" animrole font-semibold text-2xl">Software Developer</h2>
       </div>

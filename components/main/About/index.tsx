@@ -28,7 +28,6 @@ export default function About(): JSX.Element {
         <div className="flex p-1  flex-col items-center  text-center justify-center gap-4">
           <h2 className=" underline">Programing languages</h2>
           <ul className="max-w-md space-y-1 font-light">
-            <li>C</li>
             <li>Javascript</li>
             <li>Typescript</li>
           </ul>
@@ -50,17 +49,17 @@ export default function About(): JSX.Element {
                 <li>HTML && CSS / Sass</li>
                 <li>NextJs</li>
                 <li>ReactJs</li>
-                <li>React Native</li>
+                <li>React Native / EXPO</li>
                 <li>TailwindCss / Bootstrap</li>
-                <li>Redux & Toolkit / Recoil</li>
+
               </ul>
             </li>
             <li>
               <span className=" text-pink-400">Database and ORM</span>
               <ul className="  font-light space-y-1">
                 <li>MongoDB / Mongoose</li>
-                <li>PostgreSQL / Sequelize</li>
-                <li>SQLite3</li>
+                <li>PostgreSQL / SQL</li>
+                <li>PRISMA</li>
               </ul>
             </li>
           </ol>
@@ -69,9 +68,7 @@ export default function About(): JSX.Element {
           <h2 className=" underline">Tools</h2>
           <ul className="max-w-md space-y-1 font-light">
             <li>Git & Github</li>
-            <li>Docker</li>
-            <li>Asana / Trello / Notion</li>
-            <li>Figma / Canva / Visily</li>
+            <li>Figma / Canva</li>
           </ul>
         </div>
       </div>
