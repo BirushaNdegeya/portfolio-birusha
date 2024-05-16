@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 
 const RootLayout = ({ children }: Readonly<Props>) => {
    return (
-      <html lang="en">
+      <html lang="en" className="bg-[#21222A]">
          <body className={nunitoSans.className}>{children}</body>
       </html>
    );
