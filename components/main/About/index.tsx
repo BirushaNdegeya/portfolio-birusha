@@ -16,9 +16,7 @@ export default function About(): JSX.Element {
          <h2 className="text-bold text-3xl text-center my-4 text-[#61DAFB]">SKILLS</h2>
          <div className="max-[640px]:flex-col flex  max-[640px]:items-center items-start  justify-center gap-8">
             <Markdown>
-
                ![](https://github-readme-stats.vercel.app/api/top-langs/?username=BirushaNdegeya&theme=prussian&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
             </Markdown>
          </div>
       </section>

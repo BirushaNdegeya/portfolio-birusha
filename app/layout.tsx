@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 import type { Metadata } from "next";
-import { Nunito_Sans } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./index.css";
 
 
@@ -8,7 +8,7 @@ type RootLayoutProps = {
    children: ReactNode;
 };
 
-const nunitoSans = Nunito_Sans({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
    title: "birusha ndegeya",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<RootLayoutProps>){
    return (
       <html lang="en" className="bg-[#21222A] text-white">
-         <body className={nunitoSans.className}>{children}</body>
+         <body className={inter.className}>{children}</body>
       </html>
    );
 }
