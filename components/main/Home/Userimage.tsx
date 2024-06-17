@@ -1,15 +1,17 @@
 import Image from "next/image";
-import birusha from '../../../public/birusha.jpg';
+// import birusha from '@/public/birusha.jpg';
+import hackton from '@/public/hackton.jpg';
+// import ndegeya from '@/public/birushandegeya.jpg';
 
 
 const UserImage = (): JSX.Element => {
    return (
-      <div className=" relative rounded-full">
-         <div className=" bg-blue-400 rounded-full -z-10 top-0 right-0 w-full h-full absolute"></div>
-         <div className=" bg-blue-400 -z-10 top-0 right-0 w-1/2 h-1/2 absolute"></div>
-         <div className=" bgpic -z-20 top-0 rounded-e-full rounded-tl-full -left-3 w-full h-full absolute"></div>
-         <div className="bgcircle1 max-[500px]:-right-[4rem] absolute -z-20 -bottom-[2rem] -right-[2rem] w-[10rem] h-[10rem] rounded-full"></div>
-         <Image className=" rounded-full" alt="thierry" src={birusha} />
+      <div className="relative">
+         <div className="w-full h-full flex flex-wrap">
+            <Image className="w-[500px] h-[400px] object-cover" alt="birusha" src={hackton} />
+            {/* <Image className="w-[200px] h-[200px]" alt="birusha" src={birusha} /> */}
+            {/* <Image className=" rounded-full w-[200px] h-[200px]" alt="birusha" src={ndegeya} /> */}
+         </div>
       </div>
    );
 }

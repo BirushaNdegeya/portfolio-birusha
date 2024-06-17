@@ -2,13 +2,14 @@ import Logo from "../header/Logo";
 import menus from "../../data/menus";
 import SocialMediaItem from "../footer/socialMedia/Item";
 import socialmedias from "@/data/socialmedias";
+import Markdown from "react-markdown";
 
 
 const Footer = ({ hamburger }: IhamburgerProps): JSX.Element => {
    return (
       <footer
-         className={` ${hamburger ? "hidden" : ""
-            } bg-white z-20 text-black max-[770px]:p-4 w-full p-8`}
+         className={`bg-[#2B283A] glass-header ${hamburger ? "hidden" : ""
+            } bg-[#2B283A] z-20 text-white max-[770px]:p-4 w-full p-8`}
       >
          <div className="flex items-center flex-col">
             <div className="flex w-full  items-center max-[770px]:flex-col max-[770px]:gap-10 justify-between">
@@ -39,13 +40,14 @@ const Footer = ({ hamburger }: IhamburgerProps): JSX.Element => {
                </ul>
             </div>
             <hr className="my-8 w-11/12" />
-            <span className="block  font-light text-sm text-center">
+            <span className="block  font-light text-sm text-center mb-4">
                © {new Date(Date.now()).getFullYear()}{" "}
-               <a href="#home" className="hover:underline">
-                  Birusha
-               </a>
+               Birusha
                . All Rights Reserved.
             </span>
+            <Markdown>
+               [![](https://visitcount.itsvg.in/api?id=BirushaNdegeya&icon=5&color=3)](https://visitcount.itsvg.in)
+            </Markdown>
          </div>
       </footer>
    );
